@@ -1,0 +1,24 @@
+
+body {
+	background: rgb(255, 248, 224) url('./images/papertexture.png') no-repeat;
+	background-size: 100%;
+
+}
+
+.nameHeader {
+	font-family: Didot;
+	color: black;
+	letter-spacing: 4px;
+	font-weight: lighter;
+}
+
+.aboutMe {
+	font-family: Didot;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+}
+
+.filler {
+	height: 4000px;
+}

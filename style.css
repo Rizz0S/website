@@ -1,6 +1,6 @@
 
 body {
-	background: rgb(255, 248, 224) url('./images/papertexture.jpg') no-repeat;
+	background: rgb(255, 248, 224) url('./images/papertexture2.jpg') no-repeat;
 	background-size: 100%;
 
 }
@@ -12,7 +12,40 @@ body {
 	font-weight: lighter;
 }
 
+.pageHeader{
+	font-family: Didot;
+	font-size: 24px;
+	color: black;
+	letter-spacing: 4px;
+	font-weight: lighter;
+}
+
+.description{
+	font-family: Didot;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 1.25px;
+	font-weight: lighter;
+	white-space: pre;
+}
+
+.albumList{
+	font-family: Didot;
+	font-size: 20px;
+	color: black;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	white-space: pre;
+}
+
 .aboutMe {
+	font-family: Didot;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+}
+
+.links {
 	font-family: Didot;
 	color: black;
 	font-weight: lighter;

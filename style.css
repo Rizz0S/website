@@ -1,6 +1,6 @@
 
 body {
-	background: rgb(255, 248, 224) url('./images/papertexture2.jpg') no-repeat;
+	background: rgb(239, 224, 191) url('./images/papertexturefade.png') no-repeat;
 	background-size: 100%;
 
 }
@@ -20,29 +20,44 @@ body {
 	font-weight: lighter;
 }
 
+.subHeader{
+	font-family: Didot;
+	font-size: 20px;
+	color: black;
+	letter-spacing: 1.5px;
+	font-style: underline;
+
+}
+
 .description{
 	font-family: Didot;
 	font-size: 16px;
 	color: black;
-	letter-spacing: 1.25px;
 	font-weight: lighter;
-	white-space: pre;
+	white-space: pre-wrap;
+	width: 100%;
 }
+
 
 .albumList{
 	font-family: Didot;
 	font-size: 20px;
 	color: black;
-	letter-spacing: 1px;
-	font-weight: lighter;
+/*	font-weight: lighter;*/
 	white-space: pre;
+}
+
+.albums {
+	width: 200px;
+	height: 200px;
 }
 
 .aboutMe {
 	font-family: Didot;
 	color: black;
 	font-weight: lighter;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
+	white-space: pre-line;
 }
 
 .links {
@@ -50,8 +65,4 @@ body {
 	color: black;
 	font-weight: lighter;
 	letter-spacing: 1.5px;
-}
-
-.filler {
-	height: 4000px;
 }

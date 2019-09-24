@@ -4,6 +4,25 @@ body {
 
 }
 
+
+.root {
+	display: flex;
+	height: 100vh;
+}
+
+.content {
+	flex: 1;
+	max-width: 1000px;
+	margin-left: 50px;
+}
+
+.sidebar {
+	width: 150px;
+	padding-top: 65px;
+	border-right-style: double;
+}
+
+
 .nameHeader {
 	font-family: Didot;
 	color: black;
@@ -42,7 +61,6 @@ body {
 	font-family: Didot;
 	font-size: 20px;
 	color: black;
-/*	font-weight: lighter;*/
 	white-space: pre;
 }
 
@@ -64,4 +82,15 @@ body {
 	color: black;
 	font-weight: lighter;
 	letter-spacing: 1.5px;
+	list-style: none;
+	padding: 0;
+}
+
+.links li {
+	margin-bottom: 10px;
+}
+
+.links a:not(:hover), .links a:visited {
+	text-decoration: none;
+	color: black;
 }

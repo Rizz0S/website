@@ -12,12 +12,13 @@ body {
 
 .content {
 	flex: 1;
-	max-width: 1000px;
 	margin-left: 50px;
+	overflow: auto;
 }
 
 .sidebar {
 	width: 150px;
+	height: 1000px;
 	padding-top: 65px;
 	border-right-style: double;
 }
